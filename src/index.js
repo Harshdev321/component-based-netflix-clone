@@ -1,17 +1,34 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
+import React from "react";
+import  ReactDOM from 'react-dom';
+import Card from "./Cards";
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+ReactDOM.render( 
+<>
+   <Card imagscr="https://wallpapercave.com/uwp/uwp849588.jpeg"
+   sname = "Dark"
+   title="A Netflix Original Series"
+   link = 'https://www.netflix.com/in/title/80192098'
+/> 
+   <Card imagscr="https://wallpapercave.com/uwp/uwp3320654.jpeg"
+   sname = "Light"
+   title="A Netflix Original Series"
+   link = 'https://www.netflix.com/in/title/80192098'
+/> 
+   <Card imagscr="https://wallpapercave.com/uwp/uwp3320662.jpeg"
+   sname = "sexy"
+   title="A Netflix Original Series"
+   link = 'https://www.netflix.com/in/title/80192098'
+/> 
+   <Card imagscr="https://wallpapercave.com/uwp/uwp3320662.jpeg"
+   sname = "sexy"
+   title="A Netflix Original Series"
+   link = 'https://www.netflix.com/in/title/80192098'
+/> 
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+</>,
+  document.getElementById('root')
+ );
+ 
+
